@@ -12,6 +12,7 @@ def main():
 
 
 def parameter(score):
+    """Determine users score category"""
     if 0 < score > 100:
         return "Invalid score"
     elif score >= 50:

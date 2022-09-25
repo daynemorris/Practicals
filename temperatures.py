@@ -25,11 +25,13 @@ def menu():
 
 
 def convert_celsius(celsius):
+    """Convert Celsius to Fahrenheit"""
     fahrenheit = celsius * 9.0 / 5 + 32
     return fahrenheit
 
 
 def convert_fahrenheit(fahrenheit):
+    """Convert Fahrenheit to Celsius"""
     celsius = 5 / 9 * (fahrenheit - 32)
     return celsius
 
